@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #fff3cd;
+    color: #6a4e0e;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('baby.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: brightness(0.9);
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  
+  .main-image {
+    width: 60%;
+    max-width: 250px;
+    border-radius: 15px;
+    margin: 10px auto 15px;
+    display: block;
+  }
+  
+  
+  h1 {
+    font-size: 2em;
+    color: #d17d00;
+  }
+  
+  .text {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .countdown-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #a05200;
+    font-weight: bold;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .countdown div {
+    background: #ffe082;
+    padding: 10px;
+    border-radius: 10px;
+    width: 65px;
+  }
+  
+  .countdown small {
+    display: block;
+    font-size: 0.7em;
+    color: #5d4037;
+  }
+  
+  .map-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 25px;
+    background: #f57f17;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1em;
+  }
+  
+  .map-button:hover {
+    background: #e65100;
+  }
+  
+  .footer-video {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto 0;
+  }
+  
+  .extra-image {
+    width: 80px;
+    margin: 10px;
+  }
+  
+  /* VIDEO */
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 1000;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* OCULTAR */
+  .hidden {
+    display: none;
+  }
